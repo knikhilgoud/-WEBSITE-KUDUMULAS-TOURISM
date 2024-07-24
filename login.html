@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kudumulas Tourism - Login</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img/99.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header-nav-section {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .home-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+  }
+
+  .login-container h1 {
+    margin-bottom: 20px;
+  }
+
+  .login-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .login-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+  <div class="header-nav-section">
+    <a href="home.html" class="home-button">Home</a>
+  </div>
+  <div class="login-container">
+    <h3>Welcome to Kudumulas Tourism</h3>
+    <h3>Login Here</h3>
+    <form>
+      <input type="text" class="login-input" placeholder="Username" required><br/><br/>
+      <input type="password" class="login-input" placeholder="Password" required><br/><br/>
+      <button type="submit" class="login-button">Login</button>
+    </form>
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kudumulas Tourism - Register</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('img/99.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .header-nav-section {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .home-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+
+  .register-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .register-container h1 {
+    margin-bottom: 20px;
+  }
+
+  .register-input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .register-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+  <div class="header-nav-section">
+    <a href="home.html" class="home-button">Home</a>
+  </div>
+  <div class="register-container">
+    <h3>Welcome to Kudumulas Tourism</h3>
+    <h3>Register Here</h3>
+    <form>
+      <input type="text" class="register-input" placeholder="Full Name" required><br/><br/>
+      <input type="email" class="register-input" placeholder="Email" required><br/><br/>
+      <input type="password" class="register-input" placeholder="Password" required><br/><br/>
+      <input type="password" class="register-input" placeholder="Confirm Password" required><br/><br/>
+      <button type="submit" class="register-button">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+</body>
+</html>

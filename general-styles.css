@@ -1,0 +1,12 @@
+body {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(251, 251, 247);
+    font-family: roboto, Arial;
+}
+
+button:hover {
+    background-color: rgb(238, 201, 114);
+    color: rgba(30, 19, 25, 0.6);
+    transition: 0.5s;
+}

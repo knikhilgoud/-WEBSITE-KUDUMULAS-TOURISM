@@ -1,0 +1,113 @@
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(30, 19, 25, 0.6);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header-logo-section {
+    padding-left: 50px;
+}
+
+.logo {
+    width: 130px;
+    
+}
+
+a {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: rgb(238, 201, 114);
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.search-bar-section {
+    display: flex;
+}
+
+.search-box {
+    height: 30px;
+    width: 300px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: rgb(209, 204, 204);
+    padding-left: 15px;
+}
+
+.search-button {
+    height: 36px;
+    width: 60px;
+    margin-left: -2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color:rgb(209, 204, 204) ;
+    padding-top: 4px;
+}
+
+.search-box::placeholder {
+    font-size: 15px;
+    color: rgba(30, 19, 25, 0.6);
+}
+
+.search-icon {
+    height: 25px;
+}
+
+.header-user-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.signup-button, .login-button {
+    height: 36px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color:rgb(209, 204, 204) ;
+    color: rgba(30, 19, 25, 0.6);
+}
+
+.login-button {
+    margin-left: 20px;
+}
+
+
+
+.main-image {
+    height: 600px;
+    width: 100%;
+}
+
+.main-heading-div {
+    position: absolute;
+    font-size: 75px;
+    font-weight: 500;
+    color: rgb(238, 201, 114);
+    left: 70px;
+    top: 200px;
+}
+
+.sub-heading-text {
+    font-size: 40px;
+    color: black;
+}
+
+.explore-button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:rgba(30, 19, 25, 0.6);
+    border: none;
+    margin-left: 70px;
+    color:rgb(238, 201, 114);
+    font-size: 20px;
+    font-weight: 500;
+}
